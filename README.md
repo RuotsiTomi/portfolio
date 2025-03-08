@@ -115,69 +115,39 @@
     <div class="container active">
         <div class="content active" id="vahvuudet">
             <h2>Persoonallisuus ja vahvuudet</h2>
-            <li>✔ Matemaattinen osaaminen – looginen ajattelu ja laskennalliset taidot</li>
+            <ul>
+                <li>✔ Matemaattinen osaaminen – looginen ajattelu ja laskennalliset taidot</li>
                 <li>✔ Tarkkaavaisuus – huolellisuus työtehtävissä</li>
                 <li>✔ Tehokkuus – kyky saada asiat nopeasti ja laadukkaasti valmiiksi</li>
             </ul>
-            <p><strong>Kehityskohteeni:</strong></p>
+            <h3>Kehityskohteeni:</h3>
             <ul>
                 <li>✖ Kielellinen osaaminen – haluan kehittää itseäni erityisesti viestinnässä</li>
                 <li>✖ Kommunikointi – verkostoituminen ja vuorovaikutus vaativat itseltäni enemmän panostusta</li>
             </ul>
-            <p><strong>Ajanhallinta:</strong></p>
+            <h3>Ajanhallinta:</h3>
             <p>🕒 Olen hyvä aikatauluttamaan työni ja olen aina ajoissa.</p>
         </div>
+
         <div class="content" id="motivaatio">
             <h2>Motivaatio ja arvot</h2>
-            <p>Minua motivoi::</strong></p>
-                <li>💰 Hyvä palkka – haluan taloudellista vakautta
-                <li>📚 Uuden oppiminen – haluan kehittää itseäni jatkuvasti
-                <li>🔄 Palaute – arvostan selkeää palautetta kehittyäkseni
-                <li>🔒 Vakaus – arvostan varmaa ja pitkäjänteistä työuraa
-                <li>Tärkeimmät arvoni:
-                <li>✅ Rehellisyys – pyrin aina toimimaan avoimesti ja oikeudenmukaisesti
-                <li>✅ Oikeudenmukaisuus – pidän tärkeänä, että jokainen saa ansaitsemansa kohtelun
-</p>
+            <ul>
+                <li>💰 Hyvä palkka – haluan taloudellista vakautta</li>
+                <li>📚 Uuden oppiminen – haluan kehittää itseäni jatkuvasti</li>
+                <li>🔄 Palaute – arvostan selkeää palautetta kehittyäkseni</li>
+                <li>🔒 Vakaus – arvostan varmaa ja pitkäjänteistä työuraa</li>
+            </ul>
         </div>
-        <div class="content" id="unelmatyo">
-            <h2>Unelmatyö</h2>
-            <p>Haluaisin työskennellä kehittämässä uutta teknologiaa, joka vie maailmaa eteenpäin. Samalla haluan ansaita hyvin ja kehittyä asiantuntijana.
-                <li>Työympäristöni:
-                    <li>🔹 Pidän sekä selkeistä ohjeista että vapaudesta kehittää ratkaisuja
-                    <li>🔹 Sopii parhaiten muuttuva ja monipuolinen ympäristö
-                <li>🌟 Esikuvani alalla: Elon Musk – innovatiivinen ajattelija, joka vie teknologiaa rohkeasti eteenpäin.
-</p>
-        </div>
-        <div class="content" id="tyonhaku">
-            <h2>Työllistyminen</h2>
-            <p>Työllistymisen kehittäminen ja työnhaku
-            <li>Haluan jatkuvasti kehittää omaa osaamistani ja oppia lisää. Tiedostan, että verkostoitumi-nen on tärkeää urakehityksen kannalta, mutta se on minulle luontaisesti haastavampaa.
-                <li>Käyttämäni työnhakukanavat:
-                    <li>•	🔗 LinkedIn – aktiivinen profiili ja verkostoituminen
-                    <li>•	🏢 Academic Work – nykyinen työpaikkani
-                    <li>•	📑 Yritysten omat rekrytointikanavat – tärkeä tapa löytää uusia mahdollisuuksia
-                <li>👥 Tärkeimmät verkostot: opiskelijakaverit ja nykyiset kollegat
-</p>
-        </div>
-        <div class="content" id="koulutus">
-            <h2>Jatkokoulutus</h2>
-            <p>🎓 Minulla on jo kaasualan, öljyalan ja lämmityslaiteasentajan sähköpätevyydet, mutta haluan kehittää osaamistani edelleen.
-                <li>🔹 Tavoitteeni: 
-                    <li>✅ Opiskella itseni diplomi-insinööriksi insinööriopintojen jälkeen
-                    <li>✅ Hankkia lisää sertifikaatteja alani erikoisosaamisalueilta
-                    <li>✅ Oppia uusia teknologioita, jotka tukevat uratavoitteitani
-</p>
-        </div>
+
         <div class="content" id="kiinnostus">
             <h2>Kiinnostus</h2>
-            <p>Olen erittäin kiinnostunut tekoälyn hyödyntämisestä tulevaisuudessa ja siksi yrittänyt saa-da siitä mahdollisimman paljon oppia ja hyötyä koulutuksessa, sekä työelämässä. 
-Sijoittaminen on toinen intohimoni ja tavoitteeni on olla taloudellisesti riippumaton ennen, kun täytän 40 ja tähän suunnitelmaan uskon sijoittamisen olevan parasvaihtoehto, tai ai-nakin tällä hetkellä.
-</p>
+            <p>Olen erittäin kiinnostunut tekoälyn hyödyntämisestä tulevaisuudessa ja siksi pyrkinyt oppimaan siitä mahdollisimman paljon koulutuksen sekä työelämän kautta.</p>
+            <p>Sijoittaminen on toinen intohimoni ja tavoitteeni on olla taloudellisesti riippumaton ennen kuin täytän 40. Uskon, että sijoittaminen on paras vaihtoehto tämän tavoitteen saavuttamiseen.</p>
         </div>
     </div>
     
     <footer>
-        <p>&copy; 2024 Portfolio. Kaikki oikeudet pidätetään.</p>
+        <p>&copy; 2025 Portfolio. Kaikki oikeudet pidätetään.</p>
         <p>📧 Ota yhteyttä: <a href="mailto:tomi_r@hotmail.com" style="color: #00aaff;">tomi_r@hotmail.com</a></p>
     </footer>
 </body>
