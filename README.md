@@ -129,7 +129,15 @@
         </div>
         <div class="content" id="motivaatio">
             <h2>Motivaatio ja arvot</h2>
-            <p>Minua motivoi muun muassa hyvä palkka, uuden oppiminen, palaute ja vakaus...</p>
+            <p>Minua motivoi::</strong></p>
+                <li>💰 Hyvä palkka – haluan taloudellista vakautta
+                <li>📚 Uuden oppiminen – haluan kehittää itseäni jatkuvasti
+                <li>🔄 Palaute – arvostan selkeää palautetta kehittyäkseni
+                <li>🔒 Vakaus – arvostan varmaa ja pitkäjänteistä työuraa
+                <li>Tärkeimmät arvoni:
+                <li>✅ Rehellisyys – pyrin aina toimimaan avoimesti ja oikeudenmukaisesti
+                <li>✅ Oikeudenmukaisuus – pidän tärkeänä, että jokainen saa ansaitsemansa kohtelun
+</p>
         </div>
         <div class="content" id="unelmatyo">
             <h2>Unelmatyö</h2>
