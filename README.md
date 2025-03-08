@@ -89,7 +89,7 @@
             <button onclick="changeLanguage('sv')">Svenska</button>
             <button onclick="changeLanguage('en')">English</button>
         </div>
-        <img src="profile.jpg" alt="Kuva minusta" class="profile">
+        <img src="profile.jpg" alt="WhatsApp-Kuva 2025-01-25 klo 13.37.13_d7cc6feb.jpg" class="profile">
     </header>
     
     <nav>
