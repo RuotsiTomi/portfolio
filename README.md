@@ -109,48 +109,31 @@
         <a onclick="toggleSection('unelmatyo')">Unelmatyö</a>
         <a onclick="toggleSection('tyonhaku')">Työllistyminen</a>
         <a onclick="toggleSection('koulutus')">Jatkokoulutus</a>
-        <a onclick="toggleSection('tekoaly')">Kiinnostus</a>
+        <a onclick="toggleSection('kiinnostus')">Kiinnostus</a>
     </nav>
     
     <div class="container active">
         <div class="content active" id="vahvuudet">
             <h2>Persoonallisuus ja vahvuudet</h2>
-            <p>Olen tehnyt useita persoonallisuustestejä, ja niissä minua on kuvattu johtajatyyppiseksi henkilöksi, jolla on vahva oikeudentaju. Tunnistan itsessäni myös piirteitä, kuten täsmälli-syys, tehokkuus ja miellyttävyys.
-Vahvuuteni:
-✔ Matemaattinen osaaminen – looginen ajattelu ja laskennalliset taidot
-✔ Tarkkaavaisuus – huolellisuus työtehtävissä
-✔ Tehokkuus – kyky saada asiat nopeasti ja laadukkaasti valmiiksi
-Kehityskohteeni:
-✖ Kielellinen osaaminen – haluan kehittää itseäni erityisesti viestinnässä
-✖ Kommunikointi – verkostoituminen ja vuorovaikutus vaativat itseltäni enemmän panos-tusta
-Ajanhallinta:
-🕒 Olen hyvä aikatauluttamaan työni ja olen aina ajoissa.
-.</p>
-        </div>
-        <div class="content" id="motivaatio">
-            <h2>Motivaatio ja arvot</h2>
-            <p>Minua motivoi uuden oppiminen, haasteet ja mahdollisuus kehittää ratkaisuja. Uskon rehellisyyteen, oikeudenmukaisuuteen ja jatkuvaan kehittymiseen.</p>
-        </div>
-        <div class="content" id="unelmatyo">
-            <h2>Unelmatyö</h2>
-            <p>Unelmatyössäni haluaisin olla mukana kehittämässä innovatiivisia ratkaisuja, jotka vievät maailmaa eteenpäin. Teknologia ja sen kehitys ovat minulle intohimo.</p>
-        </div>
-        <div class="content" id="tyonhaku">
-            <h2>Työllistyminen</h2>
-            <p>Olen aktiivisesti kehittämässä työnhakutaitojani ja verkostoitumista. LinkedIn-profiilini on tärkeä osa työnhakuani, ja seuraan alan trendejä löytääkseni parhaat mahdollisuudet.</p>
-        </div>
-        <div class="content" id="koulutus">
-            <h2>Jatkokoulutus</h2>
-            <p>Olen kiinnostunut jatkuvasta oppimisesta ja harkitsen lisäkoulutusta. Insinööriopintojen jälkeen tähtään mahdollisesti diplomi-insinöörin tutkintoon.</p>
-        </div>
-        <div class="content" id="kiinnostus">
-            <h2>Kiinnostus</h2>
-            <p>Olen kiinnostunut tekoälyn kehityksestä ja sen sovelluksista eri aloilla. Lisäksi sijoittaminen on minulle tärkeä tapa ymmärtää talouden suuntauksia ja rakentaa varallisuutta.</p>
+            <p>Olen tehnyt useita persoonallisuustestejä, ja niissä minua on kuvattu johtajatyyppiseksi henkilöksi, jolla on vahva oikeudentaju. Tunnistan itsessäni myös piirteitä, kuten täsmällisyys, tehokkuus ja miellyttävyys.</p>
+            <p><strong>Vahvuuteni:</strong></p>
+            <ul>
+                <li>✔ Matemaattinen osaaminen – looginen ajattelu ja laskennalliset taidot</li>
+                <li>✔ Tarkkaavaisuus – huolellisuus työtehtävissä</li>
+                <li>✔ Tehokkuus – kyky saada asiat nopeasti ja laadukkaasti valmiiksi</li>
+            </ul>
+            <p><strong>Kehityskohteeni:</strong></p>
+            <ul>
+                <li>✖ Kielellinen osaaminen – haluan kehittää itseäni erityisesti viestinnässä</li>
+                <li>✖ Kommunikointi – verkostoituminen ja vuorovaikutus vaativat itseltäni enemmän panostusta</li>
+            </ul>
+            <p><strong>Ajanhallinta:</strong></p>
+            <p>🕒 Olen hyvä aikatauluttamaan työni ja olen aina ajoissa.</p>
         </div>
     </div>
     
     <footer>
-        <p>&copy; 2025 Portfolio. Kaikki oikeudet pidätetään.</p>
+        <p>&copy; 2024 Portfolio. Kaikki oikeudet pidätetään.</p>
         <p>📧 Ota yhteyttä: <a href="mailto:tomi_r@hotmail.com" style="color: #00aaff;">tomi_r@hotmail.com</a></p>
     </footer>
 </body>
