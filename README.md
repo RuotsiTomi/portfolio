@@ -115,20 +115,27 @@
     <div class="container active">
         <div class="content active" id="vahvuudet">
             <h2>Persoonallisuus ja vahvuudet</h2>
-            <p>Olen tehnyt useita persoonallisuustestejä, ja niissä minua on kuvattu johtajatyyppiseksi henkilöksi, jolla on vahva oikeudentaju. Tunnistan itsessäni myös piirteitä, kuten täsmällisyys, tehokkuus ja miellyttävyys.</p>
-            <p><strong>Vahvuuteni:</strong></p>
-            <ul>
-                <li>✔ Matemaattinen osaaminen – looginen ajattelu ja laskennalliset taidot</li>
-                <li>✔ Tarkkaavaisuus – huolellisuus työtehtävissä</li>
-                <li>✔ Tehokkuus – kyky saada asiat nopeasti ja laadukkaasti valmiiksi</li>
-            </ul>
-            <p><strong>Kehityskohteeni:</strong></p>
-            <ul>
-                <li>✖ Kielellinen osaaminen – haluan kehittää itseäni erityisesti viestinnässä</li>
-                <li>✖ Kommunikointi – verkostoituminen ja vuorovaikutus vaativat itseltäni enemmän panostusta</li>
-            </ul>
-            <p><strong>Ajanhallinta:</strong></p>
-            <p>🕒 Olen hyvä aikatauluttamaan työni ja olen aina ajoissa.</p>
+            <p>Olen tehnyt useita persoonallisuustestejä, ja niissä minua on kuvattu johtajatyyppiseksi henkilöksi...</p>
+        </div>
+        <div class="content" id="motivaatio">
+            <h2>Motivaatio ja arvot</h2>
+            <p>Minua motivoi muun muassa hyvä palkka, uuden oppiminen, palaute ja vakaus...</p>
+        </div>
+        <div class="content" id="unelmatyo">
+            <h2>Unelmatyö</h2>
+            <p>Haluaisin työskennellä kehittämässä uutta teknologiaa, joka vie maailmaa eteenpäin...</p>
+        </div>
+        <div class="content" id="tyonhaku">
+            <h2>Työllistyminen</h2>
+            <p>Olen aktiivisesti kehittämässä omaa osaamistani ja verkostoitumistaitojani...</p>
+        </div>
+        <div class="content" id="koulutus">
+            <h2>Jatkokoulutus</h2>
+            <p>Minulla on useita pätevyyksiä, mutta haluan jatkaa opiskelua mahdollisesti diplomi-insinööriksi...</p>
+        </div>
+        <div class="content" id="kiinnostus">
+            <h2>Kiinnostus</h2>
+            <p>Olen erityisen kiinnostunut tekoälystä, sijoittamisesta ja teknologiasta...</p>
         </div>
     </div>
     
