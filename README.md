@@ -113,36 +113,33 @@
     </nav>
     
     <div class="container active">
-        <div class="content active" id="vahvuudet">
-            <h2>Persoonallisuus ja vahvuudet</h2>
+        <div class="content active" id="unelmatyo">
+            <h2>Unelmatyö</h2>
+            <p>Haluaisin työskennellä kehittämässä uutta teknologiaa, joka vie maailmaa eteenpäin. Samalla haluan ansaita hyvin ja kehittyä asiantuntijana.</p>
             <ul>
-                <li>✔ Matemaattinen osaaminen – looginen ajattelu ja laskennalliset taidot</li>
-                <li>✔ Tarkkaavaisuus – huolellisuus työtehtävissä</li>
-                <li>✔ Tehokkuus – kyky saada asiat nopeasti ja laadukkaasti valmiiksi</li>
-            </ul>
-            <h3>Kehityskohteeni:</h3>
-            <ul>
-                <li>✖ Kielellinen osaaminen – haluan kehittää itseäni erityisesti viestinnässä</li>
-                <li>✖ Kommunikointi – verkostoituminen ja vuorovaikutus vaativat itseltäni enemmän panostusta</li>
-            </ul>
-            <h3>Ajanhallinta:</h3>
-            <p>🕒 Olen hyvä aikatauluttamaan työni ja olen aina ajoissa.</p>
-        </div>
-
-        <div class="content" id="motivaatio">
-            <h2>Motivaatio ja arvot</h2>
-            <ul>
-                <li>💰 Hyvä palkka – haluan taloudellista vakautta</li>
-                <li>📚 Uuden oppiminen – haluan kehittää itseäni jatkuvasti</li>
-                <li>🔄 Palaute – arvostan selkeää palautetta kehittyäkseni</li>
-                <li>🔒 Vakaus – arvostan varmaa ja pitkäjänteistä työuraa</li>
+                <li>🔹 Pidän sekä selkeistä ohjeista että vapaudesta kehittää ratkaisuja</li>
+                <li>🔹 Sopii parhaiten muuttuva ja monipuolinen ympäristö</li>
+                <li>🌟 Esikuvani alalla: Elon Musk – innovatiivinen ajattelija, joka vie teknologiaa rohkeasti eteenpäin.</li>
             </ul>
         </div>
-
-        <div class="content" id="kiinnostus">
-            <h2>Kiinnostus</h2>
-            <p>Olen erittäin kiinnostunut tekoälyn hyödyntämisestä tulevaisuudessa ja siksi pyrkinyt oppimaan siitä mahdollisimman paljon koulutuksen sekä työelämän kautta.</p>
-            <p>Sijoittaminen on toinen intohimoni ja tavoitteeni on olla taloudellisesti riippumaton ennen kuin täytän 40. Uskon, että sijoittaminen on paras vaihtoehto tämän tavoitteen saavuttamiseen.</p>
+        <div class="content" id="tyonhaku">
+            <h2>Työllistyminen</h2>
+            <p>Haluan jatkuvasti kehittää omaa osaamistani ja oppia lisää. Tiedostan, että verkostoituminen on tärkeää urakehityksen kannalta, mutta se on minulle luontaisesti haastavampaa.</p>
+            <ul>
+                <li>🔗 LinkedIn – aktiivinen profiili ja verkostoituminen</li>
+                <li>🏢 Academic Work – nykyinen työpaikkani</li>
+                <li>📑 Yritysten omat rekrytointikanavat – tärkeä tapa löytää uusia mahdollisuuksia</li>
+                <li>👥 Tärkeimmät verkostot: opiskelijakaverit ja nykyiset kollegat</li>
+            </ul>
+        </div>
+        <div class="content" id="koulutus">
+            <h2>Jatkokoulutus</h2>
+            <p>Minulla on jo kaasualan, öljyalan ja lämmityslaiteasentajan sähköpätevyydet, mutta haluan kehittää osaamistani edelleen.</p>
+            <ul>
+                <li>✅ Opiskella itseni diplomi-insinööriksi insinööriopintojen jälkeen</li>
+                <li>✅ Hankkia lisää sertifikaatteja alani erikoisosaamisalueilta</li>
+                <li>✅ Oppia uusia teknologioita, jotka tukevat uratavoitteitani</li>
+            </ul>
         </div>
     </div>
     
