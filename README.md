@@ -12,14 +12,18 @@
             background-color: black;
             color: white;
             text-align: center;
+            background-image: url('WhatsApp-Kuva 2025-02-24 klo 19.04.12_90626095.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
         }
         header {
-            background-color: #111;
+            background-color: rgba(0, 0, 0, 0.8);
             padding: 20px;
         }
         nav {
             padding: 10px;
-            background: #222;
+            background: rgba(34, 34, 34, 0.8);
         }
         nav a {
             color: white;
@@ -32,7 +36,7 @@
             width: 80%;
             margin: auto;
             padding: 20px;
-            background: #333;
+            background: rgba(51, 51, 51, 0.9);
             box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
             text-align: left;
             border-radius: 10px;
@@ -52,15 +56,10 @@
             margin: 20px 0;
             border: 3px solid white;
         }
-        img.background {
-            width: 100%;
-            height: auto;
-            margin-bottom: 20px;
-        }
         footer {
             text-align: center;
             padding: 20px;
-            background: #111;
+            background: rgba(0, 0, 0, 0.8);
             color: white;
             margin-top: 20px;
         }
@@ -79,6 +78,10 @@
                 el.style.display = el.getAttribute('data-lang') === lang ? 'block' : 'none';
             });
         }
+        
+        document.addEventListener("DOMContentLoaded", function () {
+            changeLanguage('fi');
+        });
     </script>
 </head>
 <body>
@@ -100,8 +103,6 @@
         <a onclick="toggleSection('koulutus')">Jatkokoulutus</a>
         <a onclick="toggleSection('tekoaly')">Kiinnostus tekoälyyn ja sijoittamiseen</a>
     </nav>
-    
-    <img src="WhatsApp-Kuva 2025-02-24 klo 19.04.12_90626095.jpg" alt="Visuaalinen taustakuva" class="background">
     
     <div class="container" data-lang="fi">
         <h2 onclick="toggleSection('vahvuudet')">Persoonallisuus ja vahvuudet</h2>
