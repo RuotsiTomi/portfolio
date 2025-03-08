@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="fi">
 <head>
     <meta charset="UTF-8">
@@ -64,17 +64,31 @@
             color: white;
             margin-top: 20px;
         }
+        .language-selector {
+            margin: 10px;
+        }
     </style>
     <script>
         function toggleSection(id) {
             var section = document.getElementById(id);
             section.style.display = (section.style.display === "none" || section.style.display === "") ? "block" : "none";
         }
+        
+        function changeLanguage(lang) {
+            document.querySelectorAll('[data-lang]').forEach(el => {
+                el.style.display = el.getAttribute('data-lang') === lang ? 'block' : 'none';
+            });
+        }
     </script>
 </head>
 <body>
     <header>
         <h1>Portfolio – Oppimispäiväkirja</h1>
+        <div class="language-selector">
+            <button onclick="changeLanguage('fi')">Suomi</button>
+            <button onclick="changeLanguage('sv')">Svenska</button>
+            <button onclick="changeLanguage('en')">English</button>
+        </div>
         <img src="profile.jpg" alt="Kuva minusta" class="profile">
     </header>
     
@@ -89,41 +103,16 @@
     
     <img src="background.jpg" alt="Visuaalinen taustakuva" class="background">
     
-    <div class="container">
+    <div class="container" data-lang="fi">
         <h2 onclick="toggleSection('vahvuudet')">Persoonallisuus ja vahvuudet</h2>
         <div class="content" id="vahvuudet">
-            <p>Olen johtajatyyppinen henkilö, jolla on vahva oikeudentaju. Tunnistan itsessäni myös piirteitä kuten täsmällisyys, tehokkuus ja miellyttävyys.</p>
-        </div>
-        
-        <h2 onclick="toggleSection('motivaatio')">Motivaatio ja arvot</h2>
-        <div class="content" id="motivaatio">
-            <p>Minua motivoi hyvä palkka, uuden oppiminen ja selkeä palaute. Arvojani ovat rehellisyys ja oikeudenmukaisuus.</p>
-        </div>
-        
-        <h2 onclick="toggleSection('unelmatyo')">Unelmatyöni ja työympäristö</h2>
-        <div class="content" id="unelmatyo">
-            <p>Haluaisin työskennellä kehittämässä uutta teknologiaa, joka vie maailmaa eteenpäin.</p>
-        </div>
-        
-        <h2 onclick="toggleSection('tyonhaku')">Työllistyminen ja työnhaku</h2>
-        <div class="content" id="tyonhaku">
-            <p>Verkostoituminen on tärkeää, mutta minulle haastavampaa. Käytän LinkedInia ja Academic Workia työnhaussa.</p>
-        </div>
-        
-        <h2 onclick="toggleSection('koulutus')">Jatkokoulutussuunnitelmat</h2>
-        <div class="content" id="koulutus">
-            <p>Minulla on jo kaasualan ja öljyalan pätevyydet, mutta haluan opiskella diplomi-insinööriksi.</p>
-        </div>
-        
-        <h2 onclick="toggleSection('tekoaly')">Kiinnostus tekoälyyn ja sijoittamiseen</h2>
-        <div class="content" id="tekoaly">
-            <p>Olen kiinnostunut tekoälystä ja sen hyödyntämisestä eri aloilla. Uskon, että tekoälyllä on valtava potentiaali tehostaa prosesseja ja kehittää uusia innovaatioita.</p>
-            <p>Lisäksi olen aktiivinen sijoittaja ja omistan tällä hetkellä merkittävän kokoisen salkun. Seuraan aktiivisesti sijoitusmarkkinoita ja pyrin tekemään strategisia päätöksiä pitkän aikavälin kasvun saavuttamiseksi.</p>
+            <p>Olen määrätietoinen ja analyyttinen henkilö, jolla on vahva oikeudentaju...</p>
         </div>
     </div>
     
     <footer>
         <p>&copy; 2024 Portfolio. Kaikki oikeudet pidätetään.</p>
+        <p>📧 Ota yhteyttä: <a href="mailto:tomi_r@hotmail.com" style="color: #00aaff;">tomi_r@hotmail.com</a></p>
     </footer>
 </body>
 </html>
