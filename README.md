@@ -109,7 +109,7 @@
         <a onclick="toggleSection('unelmatyo')">Unelmatyö</a>
         <a onclick="toggleSection('tyonhaku')">Työllistyminen</a>
         <a onclick="toggleSection('koulutus')">Jatkokoulutus</a>
-        <a onclick="toggleSection('tekoaly')">Kiinnostus tekoälyyn ja sijoittamiseen</a>
+        <a onclick="toggleSection('tekoaly')">Kiinnostus</a>
     </nav>
     
     <div class="container active">
@@ -134,7 +134,7 @@
             <p>Olen kiinnostunut jatkuvasta oppimisesta ja harkitsen lisäkoulutusta. Insinööriopintojen jälkeen tähtään mahdollisesti diplomi-insinöörin tutkintoon.</p>
         </div>
         <div class="content" id="tekoaly">
-            <h2>Kiinnostus tekoälyyn ja sijoittamiseen</h2>
+            <h2>Kiinnostus</h2>
             <p>Olen kiinnostunut tekoälyn kehityksestä ja sen sovelluksista eri aloilla. Lisäksi sijoittaminen on minulle tärkeä tapa ymmärtää talouden suuntauksia ja rakentaa varallisuutta.</p>
         </div>
     </div>
