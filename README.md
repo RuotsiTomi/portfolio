@@ -141,19 +141,38 @@
         </div>
         <div class="content" id="unelmatyo">
             <h2>Unelmatyö</h2>
-            <p>Haluaisin työskennellä kehittämässä uutta teknologiaa, joka vie maailmaa eteenpäin...</p>
+            <p>Haluaisin työskennellä kehittämässä uutta teknologiaa, joka vie maailmaa eteenpäin. Samalla haluan ansaita hyvin ja kehittyä asiantuntijana.
+                <li>Työympäristöni:
+                    <li>🔹 Pidän sekä selkeistä ohjeista että vapaudesta kehittää ratkaisuja
+                    <li>🔹 Sopii parhaiten muuttuva ja monipuolinen ympäristö
+                <li>🌟 Esikuvani alalla: Elon Musk – innovatiivinen ajattelija, joka vie teknologiaa rohkeasti eteenpäin.
+</p>
         </div>
         <div class="content" id="tyonhaku">
             <h2>Työllistyminen</h2>
-            <p>Olen aktiivisesti kehittämässä omaa osaamistani ja verkostoitumistaitojani...</p>
+            <p>Työllistymisen kehittäminen ja työnhaku
+            <li>Haluan jatkuvasti kehittää omaa osaamistani ja oppia lisää. Tiedostan, että verkostoitumi-nen on tärkeää urakehityksen kannalta, mutta se on minulle luontaisesti haastavampaa.
+                <li>Käyttämäni työnhakukanavat:
+                    <li>•	🔗 LinkedIn – aktiivinen profiili ja verkostoituminen
+                    <li>•	🏢 Academic Work – nykyinen työpaikkani
+                    <li>•	📑 Yritysten omat rekrytointikanavat – tärkeä tapa löytää uusia mahdollisuuksia
+                <li>👥 Tärkeimmät verkostot: opiskelijakaverit ja nykyiset kollegat
+</p>
         </div>
         <div class="content" id="koulutus">
             <h2>Jatkokoulutus</h2>
-            <p>Minulla on useita pätevyyksiä, mutta haluan jatkaa opiskelua mahdollisesti diplomi-insinööriksi...</p>
+            <p>🎓 Minulla on jo kaasualan, öljyalan ja lämmityslaiteasentajan sähköpätevyydet, mutta haluan kehittää osaamistani edelleen.
+                <li>🔹 Tavoitteeni: 
+                    <li>✅ Opiskella itseni diplomi-insinööriksi insinööriopintojen jälkeen
+                    <li>✅ Hankkia lisää sertifikaatteja alani erikoisosaamisalueilta
+                    <li>✅ Oppia uusia teknologioita, jotka tukevat uratavoitteitani
+</p>
         </div>
         <div class="content" id="kiinnostus">
             <h2>Kiinnostus</h2>
-            <p>Olen erityisen kiinnostunut tekoälystä, sijoittamisesta ja teknologiasta...</p>
+            <p>Olen erittäin kiinnostunut tekoälyn hyödyntämisestä tulevaisuudessa ja siksi yrittänyt saa-da siitä mahdollisimman paljon oppia ja hyötyä koulutuksessa, sekä työelämässä. 
+Sijoittaminen on toinen intohimoni ja tavoitteeni on olla taloudellisesti riippumaton ennen, kun täytän 40 ja tähän suunnitelmaan uskon sijoittamisen olevan parasvaihtoehto, tai ai-nakin tällä hetkellä.
+</p>
         </div>
     </div>
     
