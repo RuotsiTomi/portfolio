@@ -53,6 +53,9 @@
             display: none;
             padding: 10px;
         }
+        .content.active {
+            display: block;
+        }
         img.profile {
             width: 200px;
             height: 200px;
@@ -73,8 +76,11 @@
     </style>
     <script>
         function toggleSection(id) {
+            document.querySelectorAll('.content').forEach(el => el.classList.remove('active'));
             var section = document.getElementById(id);
-            section.style.display = (section.style.display === "none" || section.style.display === "") ? "block" : "none";
+            if (section) {
+                section.classList.add('active');
+            }
         }
         
         function changeLanguage(lang) {
@@ -84,16 +90,7 @@
                     el.classList.add('active');
                 }
             });
-            
-            const navItems = {
-                'fi': ["Persoonallisuus ja vahvuudet", "Motivaatio ja arvot", "Unelmatyö", "Työllistyminen", "Jatkokoulutus", "Kiinnostus tekoälyyn ja sijoittamiseen"],
-                'sv': ["Personlighet och styrkor", "Motivation och värderingar", "Drömjobb", "Sysselsättning", "Vidareutbildning", "Intresse för AI och investeringar"],
-                'en': ["Personality and Strengths", "Motivation and Values", "Dream Job", "Employment", "Further Education", "Interest in AI and Investing"]
-            };
-            
-            document.querySelectorAll("nav a").forEach((el, index) => {
-                el.innerText = navItems[lang][index];
-            });
+            document.querySelectorAll('.content').forEach(el => el.classList.remove('active'));
         }
         
         document.addEventListener("DOMContentLoaded", function () {
@@ -121,10 +118,30 @@
         <a onclick="toggleSection('tekoaly')">Kiinnostus tekoälyyn ja sijoittamiseen</a>
     </nav>
     
-    <div class="container" data-lang="fi">
-        <h2 onclick="toggleSection('vahvuudet')">Persoonallisuus ja vahvuudet</h2>
-        <div class="content" id="vahvuudet">
-            <p>Olen määrätietoinen ja analyyttinen henkilö, jolla on vahva oikeudentaju...</p>
+    <div class="container active" data-lang="fi">
+        <div class="content active" id="vahvuudet">
+            <h2>Persoonallisuus ja vahvuudet</h2>
+            <p>Olen määrätietoinen ja analyyttinen henkilö, jolla on vahva oikeudentaju. Minulle on tärkeää, että työni on tehokasta, järjestelmällistä ja tavoitteellista. Pyrin kehittämään itseäni jatkuvasti ja etsimään uusia ratkaisuja.</p>
+        </div>
+        <div class="content" id="motivaatio">
+            <h2>Motivaatio ja arvot</h2>
+            <p>Minua motivoi uuden oppiminen, haasteet ja mahdollisuus kehittää ratkaisuja. Uskon rehellisyyteen, oikeudenmukaisuuteen ja jatkuvaan kehittymiseen.</p>
+        </div>
+        <div class="content" id="unelmatyo">
+            <h2>Unelmatyö</h2>
+            <p>Unelmatyössäni haluaisin olla mukana kehittämässä innovatiivisia ratkaisuja, jotka vievät maailmaa eteenpäin. Teknologia ja sen kehitys ovat minulle intohimo.</p>
+        </div>
+        <div class="content" id="tyonhaku">
+            <h2>Työllistyminen</h2>
+            <p>Olen aktiivisesti kehittämässä työnhakutaitojani ja verkostoitumista. LinkedIn-profiilini on tärkeä osa työnhakuani, ja seuraan alan trendejä löytääkseni parhaat mahdollisuudet.</p>
+        </div>
+        <div class="content" id="koulutus">
+            <h2>Jatkokoulutus</h2>
+            <p>Olen kiinnostunut jatkuvasta oppimisesta ja harkitsen lisäkoulutusta. Insinööriopintojen jälkeen tähtään mahdollisesti diplomi-insinöörin tutkintoon.</p>
+        </div>
+        <div class="content" id="tekoaly">
+            <h2>Kiinnostus tekoälyyn ja sijoittamiseen</h2>
+            <p>Olen kiinnostunut tekoälyn kehityksestä ja sen sovelluksista eri aloilla. Lisäksi sijoittaminen on minulle tärkeä tapa ymmärtää talouden suuntauksia ja rakentaa varallisuutta.</p>
         </div>
     </div>
     
