@@ -84,6 +84,16 @@
                     el.classList.add('active');
                 }
             });
+            
+            const navItems = {
+                'fi': ["Persoonallisuus ja vahvuudet", "Motivaatio ja arvot", "Unelmatyö", "Työllistyminen", "Jatkokoulutus", "Kiinnostus tekoälyyn ja sijoittamiseen"],
+                'sv': ["Personlighet och styrkor", "Motivation och värderingar", "Drömjobb", "Sysselsättning", "Vidareutbildning", "Intresse för AI och investeringar"],
+                'en': ["Personality and Strengths", "Motivation and Values", "Dream Job", "Employment", "Further Education", "Interest in AI and Investing"]
+            };
+            
+            document.querySelectorAll("nav a").forEach((el, index) => {
+                el.innerText = navItems[lang][index];
+            });
         }
         
         document.addEventListener("DOMContentLoaded", function () {
@@ -115,20 +125,6 @@
         <h2 onclick="toggleSection('vahvuudet')">Persoonallisuus ja vahvuudet</h2>
         <div class="content" id="vahvuudet">
             <p>Olen määrätietoinen ja analyyttinen henkilö, jolla on vahva oikeudentaju...</p>
-        </div>
-    </div>
-    
-    <div class="container" data-lang="sv">
-        <h2 onclick="toggleSection('vahvuudet_sv')">Personlighet och styrkor</h2>
-        <div class="content" id="vahvuudet_sv">
-            <p>Jag är en målmedveten och analytisk person med stark känsla för rättvisa...</p>
-        </div>
-    </div>
-    
-    <div class="container" data-lang="en">
-        <h2 onclick="toggleSection('vahvuudet_en')">Personality and Strengths</h2>
-        <div class="content" id="vahvuudet_en">
-            <p>I am a determined and analytical person with a strong sense of justice...</p>
         </div>
     </div>
     
