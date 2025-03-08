@@ -88,14 +88,14 @@
         }
         
         document.addEventListener("DOMContentLoaded", function () {
-            document.getElementById('info-message').style.display = 'block';
+            document.getElementById('vahvuudet').classList.add('active');
         });
     </script>
 </head>
 <body>
     <header>
         <h1>Portfolio – Oppimispäiväkirja</h1>
-        <div class="info-box" id="info-message">
+        <div class="info-box">
             <p>Tämä sivusto on luotu vain koulutehtävää varten. Katso oikea portfolio tästä: 
                 <a href="https://parempiportfolio.com" target="_blank" style="color: #00aaff;">parempiportfolio.com</a>
             </p>
@@ -140,7 +140,7 @@
     </div>
     
     <footer>
-        <p>&copy; 2024 Portfolio. Kaikki oikeudet pidätetään.</p>
+        <p>&copy; 2025 Portfolio. Kaikki oikeudet pidätetään.</p>
         <p>📧 Ota yhteyttä: <a href="mailto:tomi_r@hotmail.com" style="color: #00aaff;">tomi_r@hotmail.com</a></p>
     </footer>
 </body>
