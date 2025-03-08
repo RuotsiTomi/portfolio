@@ -115,7 +115,17 @@
     <div class="container active">
         <div class="content active" id="vahvuudet">
             <h2>Persoonallisuus ja vahvuudet</h2>
-            <p>Olen tehnyt useita persoonallisuustestejä, ja niissä minua on kuvattu johtajatyyppiseksi henkilöksi...</p>
+            <li>✔ Matemaattinen osaaminen – looginen ajattelu ja laskennalliset taidot</li>
+                <li>✔ Tarkkaavaisuus – huolellisuus työtehtävissä</li>
+                <li>✔ Tehokkuus – kyky saada asiat nopeasti ja laadukkaasti valmiiksi</li>
+            </ul>
+            <p><strong>Kehityskohteeni:</strong></p>
+            <ul>
+                <li>✖ Kielellinen osaaminen – haluan kehittää itseäni erityisesti viestinnässä</li>
+                <li>✖ Kommunikointi – verkostoituminen ja vuorovaikutus vaativat itseltäni enemmän panostusta</li>
+            </ul>
+            <p><strong>Ajanhallinta:</strong></p>
+            <p>🕒 Olen hyvä aikatauluttamaan työni ja olen aina ajoissa.</p>
         </div>
         <div class="content" id="motivaatio">
             <h2>Motivaatio ja arvot</h2>
