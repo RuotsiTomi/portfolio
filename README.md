@@ -133,7 +133,7 @@
             <h2>Jatkokoulutus</h2>
             <p>Olen kiinnostunut jatkuvasta oppimisesta ja harkitsen lisäkoulutusta. Insinööriopintojen jälkeen tähtään mahdollisesti diplomi-insinöörin tutkintoon.</p>
         </div>
-        <div class="content" id="tekoaly">
+        <div class="content" id="kiinnostus">
             <h2>Kiinnostus</h2>
             <p>Olen kiinnostunut tekoälyn kehityksestä ja sen sovelluksista eri aloilla. Lisäksi sijoittaminen on minulle tärkeä tapa ymmärtää talouden suuntauksia ja rakentaa varallisuutta.</p>
         </div>
