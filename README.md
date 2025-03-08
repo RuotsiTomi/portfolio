@@ -74,7 +74,7 @@
         }
         
         function changeLanguage(lang) {
-            document.querySelectorAll('[data-lang]').forEach(el => {
+            document.querySelectorAll('.container').forEach(el => {
                 el.style.display = el.getAttribute('data-lang') === lang ? 'block' : 'none';
             });
         }
@@ -107,7 +107,21 @@
     <div class="container" data-lang="fi">
         <h2 onclick="toggleSection('vahvuudet')">Persoonallisuus ja vahvuudet</h2>
         <div class="content" id="vahvuudet">
-            <p>Olen määrätietoinen ja analyyttinen henkilö, jolla on vahva oikeudentaju...</p>
+            <p>Olen määrätietoinen ja analyyttinen henkilö, jolla on vahva oikeudentaju. Pyrin aina kehittämään itseäni, ja uskon jatkuvan oppimisen voimaan. Minulla on kyky ratkaista ongelmia loogisesti ja tehokkaasti. Täsmällisyys, ahkeruus ja vastuullisuus ovat vahvuuksiani, ja pidän tärkeänä laadukasta työskentelyä kaikessa mitä teen.</p>
+        </div>
+    </div>
+    
+    <div class="container" data-lang="sv" style="display:none;">
+        <h2 onclick="toggleSection('vahvuudet_sv')">Personlighet och styrkor</h2>
+        <div class="content" id="vahvuudet_sv">
+            <p>Jag är en målmedveten och analytisk person med stark känsla för rättvisa. Jag strävar alltid efter att utveckla mig själv och tror på kraften i kontinuerligt lärande. Jag har förmågan att lösa problem logiskt och effektivt. Noggrannhet, flit och ansvar är mina styrkor, och jag värdesätter kvalitativt arbete i allt jag gör.</p>
+        </div>
+    </div>
+    
+    <div class="container" data-lang="en" style="display:none;">
+        <h2 onclick="toggleSection('vahvuudet_en')">Personality and Strengths</h2>
+        <div class="content" id="vahvuudet_en">
+            <p>I am a determined and analytical person with a strong sense of justice. I always strive to develop myself and believe in the power of continuous learning. I have the ability to solve problems logically and efficiently. Precision, diligence, and responsibility are my strengths, and I prioritize high-quality work in everything I do.</p>
         </div>
     </div>
     
