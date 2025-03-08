@@ -89,7 +89,7 @@
             <button onclick="changeLanguage('sv')">Svenska</button>
             <button onclick="changeLanguage('en')">English</button>
         </div>
-        <img src="profile.jpg" alt="WhatsApp-Kuva 2025-01-25 klo 13.37.13_d7cc6feb.jpg" class="profile">
+        <img src="WhatsApp-Kuva 2025-01-25 klo 13.37.13_d7cc6feb.jpg" alt="Kuva minusta" class="profile">
     </header>
     
     <nav>
@@ -101,7 +101,7 @@
         <a onclick="toggleSection('tekoaly')">Kiinnostus tekoälyyn ja sijoittamiseen</a>
     </nav>
     
-    <img src="background.jpg" alt="Visuaalinen taustakuva" class="background">
+    <img src="WhatsApp-Kuva 2025-02-24 klo 19.04.12_90626095.jpg" alt="Visuaalinen taustakuva" class="background">
     
     <div class="container" data-lang="fi">
         <h2 onclick="toggleSection('vahvuudet')">Persoonallisuus ja vahvuudet</h2>
