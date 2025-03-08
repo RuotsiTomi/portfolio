@@ -84,6 +84,7 @@
         <a onclick="toggleSection('unelmatyo')">Unelmatyö</a>
         <a onclick="toggleSection('tyonhaku')">Työllistyminen</a>
         <a onclick="toggleSection('koulutus')">Jatkokoulutus</a>
+        <a onclick="toggleSection('tekoaly')">Kiinnostus tekoälyyn ja sijoittamiseen</a>
     </nav>
     
     <img src="background.jpg" alt="Visuaalinen taustakuva" class="background">
@@ -112,6 +113,12 @@
         <h2 onclick="toggleSection('koulutus')">Jatkokoulutussuunnitelmat</h2>
         <div class="content" id="koulutus">
             <p>Minulla on jo kaasualan ja öljyalan pätevyydet, mutta haluan opiskella diplomi-insinööriksi.</p>
+        </div>
+        
+        <h2 onclick="toggleSection('tekoaly')">Kiinnostus tekoälyyn ja sijoittamiseen</h2>
+        <div class="content" id="tekoaly">
+            <p>Olen kiinnostunut tekoälystä ja sen hyödyntämisestä eri aloilla. Uskon, että tekoälyllä on valtava potentiaali tehostaa prosesseja ja kehittää uusia innovaatioita.</p>
+            <p>Lisäksi olen aktiivinen sijoittaja ja omistan tällä hetkellä merkittävän kokoisen salkun. Seuraan aktiivisesti sijoitusmarkkinoita ja pyrin tekemään strategisia päätöksiä pitkän aikavälin kasvun saavuttamiseksi.</p>
         </div>
     </div>
     
