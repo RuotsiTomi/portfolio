@@ -115,7 +115,17 @@
     <div class="container active">
         <div class="content active" id="vahvuudet">
             <h2>Persoonallisuus ja vahvuudet</h2>
-            <p>Olen määrätietoinen ja analyyttinen henkilö, jolla on vahva oikeudentaju. Minulle on tärkeää, että työni on tehokasta, järjestelmällistä ja tavoitteellista. Pyrin kehittämään itseäni jatkuvasti ja etsimään uusia ratkaisuja.</p>
+            <p>Olen tehnyt useita persoonallisuustestejä, ja niissä minua on kuvattu johtajatyyppiseksi henkilöksi, jolla on vahva oikeudentaju. Tunnistan itsessäni myös piirteitä, kuten täsmälli-syys, tehokkuus ja miellyttävyys.
+Vahvuuteni:
+✔ Matemaattinen osaaminen – looginen ajattelu ja laskennalliset taidot
+✔ Tarkkaavaisuus – huolellisuus työtehtävissä
+✔ Tehokkuus – kyky saada asiat nopeasti ja laadukkaasti valmiiksi
+Kehityskohteeni:
+✖ Kielellinen osaaminen – haluan kehittää itseäni erityisesti viestinnässä
+✖ Kommunikointi – verkostoituminen ja vuorovaikutus vaativat itseltäni enemmän panos-tusta
+Ajanhallinta:
+🕒 Olen hyvä aikatauluttamaan työni ja olen aina ajoissa.
+.</p>
         </div>
         <div class="content" id="motivaatio">
             <h2>Motivaatio ja arvot</h2>
