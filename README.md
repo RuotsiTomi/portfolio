@@ -70,8 +70,12 @@
             color: white;
             margin-top: 20px;
         }
-        .language-selector {
-            margin: 10px;
+        .info-box {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px;
+            font-size: 18px;
         }
     </style>
     <script>
@@ -83,28 +87,18 @@
             }
         }
         
-        function changeLanguage(lang) {
-            document.querySelectorAll('.container').forEach(el => {
-                el.classList.remove('active');
-                if (el.getAttribute('data-lang') === lang) {
-                    el.classList.add('active');
-                }
-            });
-            document.querySelectorAll('.content').forEach(el => el.classList.remove('active'));
-        }
-        
         document.addEventListener("DOMContentLoaded", function () {
-            changeLanguage('fi');
+            document.getElementById('info-message').style.display = 'block';
         });
     </script>
 </head>
 <body>
     <header>
         <h1>Portfolio – Oppimispäiväkirja</h1>
-        <div class="language-selector">
-            <button onclick="changeLanguage('fi')">Suomi</button>
-            <button onclick="changeLanguage('sv')">Svenska</button>
-            <button onclick="changeLanguage('en')">English</button>
+        <div class="info-box" id="info-message">
+            <p>Tämä sivusto on luotu vain koulutehtävää varten. Katso oikea portfolio tästä: 
+                <a href="https://parempiportfolio.com" target="_blank" style="color: #00aaff;">parempiportfolio.com</a>
+            </p>
         </div>
         <img src="WhatsApp-Kuva 2025-01-25 klo 13.37.13_d7cc6feb.jpg" alt="Kuva minusta" class="profile">
     </header>
@@ -118,7 +112,7 @@
         <a onclick="toggleSection('tekoaly')">Kiinnostus tekoälyyn ja sijoittamiseen</a>
     </nav>
     
-    <div class="container active" data-lang="fi">
+    <div class="container active">
         <div class="content active" id="vahvuudet">
             <h2>Persoonallisuus ja vahvuudet</h2>
             <p>Olen määrätietoinen ja analyyttinen henkilö, jolla on vahva oikeudentaju. Minulle on tärkeää, että työni on tehokasta, järjestelmällistä ja tavoitteellista. Pyrin kehittämään itseäni jatkuvasti ja etsimään uusia ratkaisuja.</p>
